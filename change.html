@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>提交按钮</title>
+<style type="text/css">
+    p{font:italic bold 30px "宋体";}
+</style>
+</head>
+<body>
+<form  method="post" action="save.php">
+    <label for="myName">学生姓名:</label>
+    <input type="text" value=" " name="myName " />
+    <input type="submit" value="提交" name="submitBtn" />
+    <br>
+    <label for="myspecialty">专业名称:</label>
+    <input type="text" value=" " specialty="myspecialty" />
+    <br>
+    <label for="myclass">班级名称:</label>
+    <input type="text" value=" " class="myclass" />
+    <br>
+    <label for="myphone">电话号码:</label>
+    <input type="text" value=" " phone="myphone" />
+    <br>
+    <label>性别:</label>
+    <label>男</label>
+    <input type="radio" value="1"  name="gender" />
+    <label>女</label>
+    <input type="radio" value="2"  name="gender" />
+</form>
+<hr>
+<p>意向部门</p>
+<select>
+    <option value="网络安全部" select="selected">网络安全部</option>
+    <option value="公关策划部">公关策划部</option>
+    <option value="视觉设计部">视觉设计部</option>
+    <option value="技术开发部">技术开发部</option>
+    <option value="网站运营部">网站运营部</option>
+</select>
+    <textarea cols="40" rows="10">在这里输入内容...</textarea>
+    <input type="submit" value="确定" name="submit"  />
+    <input type="reset" value="重置" name="reset" />
